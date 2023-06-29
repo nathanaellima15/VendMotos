@@ -1,14 +1,12 @@
 package com.mycompany.vendmotos.vision;
 
-import com.jocile.cadastrodefuncionarios.entities.Departamento;
-import com.jocile.cadastrodefuncionarios.entities.Funcionario;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
 public class CadF extends javax.swing.JFrame {
-    ArrayList<Departamento> ListaDep;        
-    ArrayList<Funcionario> ListaFunc;  // Adicionada a lista de funcionários
+    ArrayList<Moto> ListaDep;        
+    ArrayList<Vendedor> ListaFunc;  // Adicionada a lista de funcionários
     String modoDep;
     String modoFunc;                   // Adicionada a variável de modo que muda a configuração
     /**
