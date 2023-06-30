@@ -11,19 +11,22 @@ package com.mycompany.vendmotos.entits;
 public class vendedor {
   private String nome;
   private int telefone;
+  private String Usuario;
+  private String senha;
 
-  
-    public vendedor(String nome, String ano, int telefone) {
+    public vendedor(String nome, int telefone, String Usuario, String senha) {
         this.nome = nome;
         this.telefone = telefone;
+        this.Usuario = Usuario;
+        this.senha = senha;
     }
-    
-    public vendedor(){
+    public vendedor() {
         this.nome = "";
         this.telefone = 0;
+        this.Usuario = "";
+        this.senha = "";
     }
 
-    
     public String getNome() {
         return nome;
     }
@@ -35,8 +38,18 @@ public class vendedor {
     }
     public void setTelefone(int telefone) {
         this.telefone = telefone;
-    } 
- 
-  
-  
+    }
+    public String getUsuario() {
+        return Usuario;
+    }
+    public void setUsuario(String Usuario) {
+        this.Usuario = Usuario;
+    }
+    public String getSenha() {
+        return senha;
+    }
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
+
 }
