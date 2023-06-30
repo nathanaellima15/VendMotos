@@ -14,7 +14,9 @@ public class Frame2 extends javax.swing.JFrame {
      * Creates new form Fame2
      */
     public Frame2() {
+        
         initComponents();
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
     }
 
     /**

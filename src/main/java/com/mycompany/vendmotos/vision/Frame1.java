@@ -14,7 +14,9 @@ public class Frame1 extends javax.swing.JFrame {
      * Creates new form Frame1
      */
     public Frame1() {
+        
         initComponents();
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
     }
 
     /**
